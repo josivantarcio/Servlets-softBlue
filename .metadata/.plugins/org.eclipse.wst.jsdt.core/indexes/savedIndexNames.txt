@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+/home/josevan/Workspaces/JavaLegado/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2649689267.index

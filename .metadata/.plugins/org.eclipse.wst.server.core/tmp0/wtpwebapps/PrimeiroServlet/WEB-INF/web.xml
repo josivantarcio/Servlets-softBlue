@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <servlet>
+    <description></description>
+    <display-name>MensagemServlet</display-name>
+    <servlet-name>MensagemServlet</servlet-name>
+    <servlet-class>servlet.MensagemServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MensagemServlet</servlet-name>
+    <url-pattern>/Mensagem</url-pattern>
+  </servlet-mapping>
+  <display-name>PrimeiroServlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>HTMLServlet</display-name>
+    <servlet-name>HTMLServlet</servlet-name>
+    <servlet-class>servlet.HTMLServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HTMLServlet</servlet-name>
+    <url-pattern>/HTML</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ArquivoServlet</display-name>
+    <servlet-name>ArquivoServlet</servlet-name>
+    <servlet-class>servlet.ArquivoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ArquivoServlet</servlet-name>
+    <url-pattern>/Arquivo</url-pattern>
+  </servlet-mapping>
+</web-app>
